@@ -1,6 +1,7 @@
 Certainly! git stash is a helpful command in Git that allows you to temporarily shelve changes that are not ready to be committed, allowing you to work on something else. Here are some common git stash commands with examples:
 1. Stashing Changes:
 You have some changes in your working directory that are not ready to be committed yet.
+<<<<<<< HEAD
 
 bash
 Copy code
@@ -22,4 +23,26 @@ Copy code
 git stash list
 4. Applying Stashed Changes:
 Apply the most recent stash to your current branch. It doesn’t remove the stash.
+=======
+>>>>>>> 110a77205046e91c09874f1f28d64a2f0f08d079
 
+bash
+Copy code
+# Stash changes
+git stash
+2. Stashing with a Message:
+Adding a descriptive message to the stash.
+
+bash
+Copy code
+# Stash changes with a message
+git stash save "Descriptive message about the changes"
+3. Listing Stashes:
+View the list of stashed changes.
+
+bash
+Copy code
+# List stashes
+git stash list
+4. Applying Stashed Changes:
+Apply the most recent stash to your current branch. It doesn’t remove the stash.
